@@ -17,25 +17,25 @@ header {
 
 nav a {
     box-shadow: 1px 1px 5px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #7690b0 100%);
-	background-color:#7892c2;
-	border-radius:28px;
-	border:2px solid #748bcf;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow:0px 3px 0px #778ec7;
-    
+    background: linear-gradient(to bottom, #7892c2 5%, #7690b0 100%);
+    background-color: #7892c2;
+    border-radius: 28px;
+    border: 2px solid #748bcf;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 3px 0px #778ec7;
+
 }
 
 
 nav a:hover {
-    background:linear-gradient(to bottom, #8fa8c7 5%, #99b1dd 100%);
-	background-color:#97afce;
+    background: linear-gradient(to bottom, #8fa8c7 5%, #99b1dd 100%);
+    background-color: #97afce;
 }
 
 .mybuttons:active {
@@ -50,23 +50,27 @@ ul {
     justify-content: space-evenly;
 }
 
- img.image {
+img .image {
     width: 10px;
     height: 10px;
     float: right;
     border-radius: 50%;
     position: relative;
-  -webkit-transition: .4s ease-in-out;
-     -moz-transition: .4s ease-in-out;
-      -ms-transition: .4s ease-in-out;
-       -o-transition: .4s ease-in-out;
-          transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
 
 }
 
-input{display:none;}
+input {
+    display: none;
+}
 
-input:checked ~ label img {transform: scale(1.0);}
+input:checked~label img {
+    transform: scale(1.0);
+}
 
 
 
@@ -91,70 +95,69 @@ section p {
 
 
 
-    footer {
-        background-color: #94cfe2;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        font-family: 'Courgette', cursive;
-        color: #108eb8;
-        font-size: 20px;
-        flex-wrap: wrap;
-          }
+footer {
+    background-color: #94cfe2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Courgette', cursive;
+    color: #108eb8;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
 
-          figure {
-            border: thin #c0c0c0 solid;
-            display: flex;
-            flex-flow: column;
-            padding: 5px;
-            max-width: 300px;
-            margin: auto;
-        }
-        
-        
-            
-
-        
-        
-        figcaption {
-            background-color: #222;
-            color: #fff;
-            font: italic smaller sans-serif;
-            padding: 3px;
-            text-align: center;
-        }
-        
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;
+}
 
 
-        p
-        {
-            padding-right: 30px;
-            margin: 50px;
-            line-height: 30px;
-    
-            }
 
- table {
+
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+p {
+    padding-right: 30px;
+    margin: 50px;
+    line-height: 30px;
+
+}
+
+table {
     border: 1px solid;
     margin: 50px;
     width: 50%;
     height: 50%;
     font-size: 20px;
     border-collapse: collapse;
-    background-color: #8cffd8
+    background-color: #bae4e4
 }
 
 
- th{    
+th {
     border: 1px solid #070707;
     height: 40px;
 
- }
+}
 
-button .active{
+button .active {
     background-color: #070707;
- }
+}
 
 
 h1 {

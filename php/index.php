@@ -1,4 +1,4 @@
-<?php include './includes/head.html'; ?>
+
 <?php include './includes/header.html'; ?>
 <?php include './includes/nav.html'; ?>
 
@@ -26,6 +26,11 @@
     } else if ($page === 'mypassions.html') {
       include './includes/mypassions.html';
     } 
+
+    else if ($page === 'moncv.html') {
+      include './includes/moncv.html';
+    } 
+
     
     // else if ($page === 'homepage.html') {
     //   include './includes/homepage.html';}
