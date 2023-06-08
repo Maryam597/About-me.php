@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #94cfe2 ;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav a {
+    box-shadow: 1px 1px 5px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #7690b0 100%);
+	background-color:#7892c2;
+	border-radius:28px;
+	border:2px solid #748bcf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 3px 0px #778ec7;
+    
+}
+
+
+ nav a:hover {
+    background:linear-gradient(to bottom, #8fa8c7 5%, #99b1dd 100%);
+	background-color:#97afce;
+}
+
+.mybuttons:active {
+    top: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+    float: right;
+}
+
+header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+section h1 {
+
+    margin-top: -40px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+footer {
+    background-color: #94cfe2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Courgette', cursive;
+    color: #108eb8;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+table {
+    border: 1px solid;
+    margin: 50px;
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+
+th {
+    border: 1px solid #070707;
+    height: 40px;
+
+}
+
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+
+h2 {
+    padding: 30px;
+    text-align: center;
+
+}
+
+li {
+    line-height: 40px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 80px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(18, 48, 131, 0), rgba(4, 28, 94, 0), rgba(18, 48, 131, 0));
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
