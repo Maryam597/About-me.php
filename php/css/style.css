@@ -10,9 +10,8 @@ body {
 
 header {
     background-color: #94cfe2;
-    padding: 10px;
     text-align: center;
-    margin-bottom: 50px;
+    padding: 10px;
 }
 
 nav a {
@@ -29,6 +28,8 @@ nav a {
     padding: 12px 37px;
     text-decoration: none;
     text-shadow: 0px 3px 0px #778ec7;
+    margin-top: 40px;
+
 
 }
 
@@ -50,9 +51,9 @@ ul {
     justify-content: space-evenly;
 }
 
-img .image {
-    width: 10px;
-    height: 10px;
+img  {
+    width: 300px;
+    height: 300px;
     float: right;
     border-radius: 50%;
     position: relative;
@@ -61,6 +62,7 @@ img .image {
     -ms-transition: .4s ease-in-out;
     -o-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
+    padding: 30px;
 
 }
 
@@ -80,7 +82,14 @@ input:checked~label img {
 header p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    line-height: 30px;
 }
+
+
+
+
 
 section h1 {
 

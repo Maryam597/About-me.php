@@ -10,9 +10,8 @@ body {
 
 header {
     background-color: #94cfe2 ;
-    padding: 10px;
     text-align: center;
-    margin-bottom: 50px;
+    padding: 10px;
 }
 
 nav a {
@@ -29,6 +28,7 @@ nav a {
 	padding:12px 37px;
 	text-decoration:none;
 	text-shadow:0px 3px 0px #778ec7;
+    margin-top: 40px;
     
 }
 
@@ -59,6 +59,9 @@ img {
 header p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    line-height: 30px;
 }
 
 section h1 {
