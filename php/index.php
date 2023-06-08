@@ -40,29 +40,6 @@ if(isset($_GET['address'])) {
 
 }
 
-
-
-                // si c'est homepage
-                //     alors on include homepage
-                //     include './includes/homepage.html';
-          
-
-                //      sinon si c'est aboutme
-                //     alors on include aboutme
-                //     include './includes/aboutme.html';
-  
-                // sinon si c'est mydreams
-                //     alors on include mydreams
-                //     include './includes/mydreams.html';
-
-                // sinon si c'est mypassions
-                //     alors on include mypassions
-                //     include './includes/mypassions.html';
-
-                // sinon erreur 404
-                //     alors on include la page 404
-                //     include './includes/404.html';
-
             ?> 
 
 
