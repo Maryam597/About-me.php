@@ -1,6 +1,9 @@
 body {
     margin: 0;
     display: block;
+    background-color: rgb(241, 225, 203);
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Playfair', serif;
 }
 
 .container {
@@ -9,33 +12,35 @@ body {
 }
 
 header {
-    background-color: #94cfe2 ;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
     text-align: center;
     padding: 10px;
 }
 
 nav a {
     box-shadow: 1px 1px 5px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #7690b0 100%);
-	background-color:#7892c2;
-	border-radius:28px;
-	border:2px solid #748bcf;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 37px;
-	text-decoration:none;
-	text-shadow:0px 3px 0px #778ec7;
+    background: linear-gradient(to bottom, #7892c2 5%, #7690b0 100%);
+    background-color: #7892c2;
+    border-radius: 28px;
+    border: 2px solid #748bcf;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 3px 0px #778ec7;
     margin-top: 40px;
-    
+
 }
 
 
- nav a:hover {
-    background:linear-gradient(to bottom, #8fa8c7 5%, #99b1dd 100%);
-	background-color:#97afce;
+nav a:hover {
+    background: linear-gradient(to bottom, #8fa8c7 5%, #99b1dd 100%);
+    background-color: #97afce;
 }
 
 .mybuttons:active {
@@ -78,13 +83,15 @@ section p {
 
 
 footer {
-    background-color: #94cfe2;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-family: 'Courgette', cursive;
-    color: #108eb8;
+    color: #000303;
     font-size: 20px;
     flex-wrap: wrap;
 }
@@ -113,22 +120,6 @@ figcaption {
 
 
 
-/* table {
-    border: 1px solid;
-    margin: 50px;
-    width: 50%;
-    height: 50%;
-    font-size: 20px;
-    border-collapse: collapse;
-} */
-
-/* 
-th {
-    border: 1px solid #070707;
-    height: 40px;
-
-} */
-
 
 h1 {
     font-family: 'Courgette', cursive;
@@ -136,8 +127,15 @@ h1 {
 
 
 h2 {
-    padding: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    margin-left: 40%;
+    width: 150px;
     text-align: center;
+    border-radius: 92px 92px 92px 92px;
+    -webkit-border-radius: 92px 92px 92px 92px;
+    -moz-border-radius: 92px 92px 92px 92px;
+    border: 4px solid #02071a;
 
 }
 
