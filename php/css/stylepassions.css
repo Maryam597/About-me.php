@@ -1,23 +1,9 @@
-body {
-    margin: 0;
-    display: block;
-    background-color: rgb(241, 225, 203);
-    /* font-family: 'Courgette', cursive; */
-    font-family: 'Playfair', serif;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
-header {
-    background: #373B44;
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
-    background: linear-gradient(to right, #4286f4, #373B44);
-    text-align: center;
-    padding: 10px;
-}
+
 
 nav a {
     box-shadow: 1px 1px 5px 2px #9fb4f2;

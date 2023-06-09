@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #373B44;
+    background: #434437;
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);
     background: linear-gradient(to right, #4286f4, #373B44);
     text-align: center;
@@ -52,9 +52,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
+
+
+
 
 img {
     width: 300px;
@@ -68,6 +71,7 @@ img {
     -o-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
     padding: 30px;
+    margin: 50px;
 
 }
 
