@@ -35,8 +35,6 @@ nav a {
     text-decoration: none;
     text-shadow: 0px 3px 0px #778ec7;
     margin-top: 40px;
-
-
 }
 
 
@@ -51,10 +49,8 @@ nav a:hover {
 
 ul {
     list-style-type: none;
-    /* margin: 0;
-    padding: 0; */
-    /* display: flex;
-    justify-content: space-evenly; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -73,7 +69,6 @@ img {
     transition: .4s ease-in-out;
     padding: 30px;
     margin: 50px;
-
 }
 
 input {
@@ -83,9 +78,6 @@ input {
 input:checked~label img {
     transform: scale(1.0);
 }
-
-
-
 
 
 
@@ -130,7 +122,6 @@ footer {
     background: #373B44;
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);
     background: linear-gradient(to right, #4286f4, #373B44);
-
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -194,7 +185,6 @@ h2 {
 
 li {
     line-height: 40px;
-    vertical-align: middle;
 
 }
 
